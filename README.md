@@ -1,3 +1,3 @@
-# AtomicBombProject
 
-it's just a test, I don't even know if it really works.
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=luizpgt)](https://github.com/anuraghazra/github-readme-stats)
