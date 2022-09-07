@@ -42,7 +42,7 @@ void errorUtils(int key) {
   ((top_sender->disk) < (top_receiver->disk)) ? 1 : 0
 
 // move disk from one stack to another
-void move_disk(Stack **top_sender, Stack **top_receiver) {
+void move_disk(Stack **top_sender, Stack **top_receiver, int *mov_counter) {
   Stack *aux;
   if (*top_sender == NULL)
     return errorUtils(2);
@@ -51,6 +51,8 @@ void move_disk(Stack **top_sender, Stack **top_receiver) {
     (*top_sender)->next = (*top_receiver);
     (*top_receiver) = (*top_sender);
     (*top_sender) = aux;
+    // only then, increment the moves counter
+    (*mov_counter)++;
   } else {
     errorUtils(0); // on top of smaller disk
   }

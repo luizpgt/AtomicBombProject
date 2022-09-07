@@ -8,7 +8,7 @@ struct _stack {
 };
 
 Stack *set_stack();
-void move_disk(Stack **top_sender, Stack **top_receiver);
+void move_disk(Stack **top_sender, Stack **top_receiver, int *mov_counter);
 int is_solved(Stack *third, int numof_disks);
 Stack *populate_stack(Stack *rod, int numof_disks);
 void print_stack(Stack *rod);
