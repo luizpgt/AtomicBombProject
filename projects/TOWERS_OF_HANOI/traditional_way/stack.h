@@ -13,5 +13,6 @@ int is_solved(Stack *third, int numof_disks);
 Stack *populate_stack(Stack *rod, int numof_disks);
 void print_stack(Stack *rod);
 void errorUtils(int key);
+Stack *freeStack(Stack *top);
 
 #endif // !STACK_H

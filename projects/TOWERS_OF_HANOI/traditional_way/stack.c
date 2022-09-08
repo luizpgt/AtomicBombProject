@@ -33,6 +33,12 @@ void errorUtils(int key) {
   case 0:
     printf("cant put disk on top of smaller disk\n");
     break;
+  case 1:
+    printf("rod is empty\n");
+    break;
+  case 2:
+    printf("rod does not exists\n");
+    break;
   default:
     printf("an error ocurred\n");
   }
@@ -45,7 +51,7 @@ void errorUtils(int key) {
 void move_disk(Stack **top_sender, Stack **top_receiver, int *mov_counter) {
   Stack *aux;
   if (*top_sender == NULL)
-    return errorUtils(2);
+    return errorUtils(1);
   if (*(top_receiver) == NULL || smaller((*top_sender), (*top_receiver))) {
     aux = (*top_sender)->next;
     (*top_sender)->next = (*top_receiver);
@@ -74,4 +80,11 @@ void print_stack(Stack *rod) {
     return;
   print_stack(rod->next);
   printf("%d ", rod->disk);
+}
+
+Stack *freeStack(Stack *top) {
+  if (!top)
+    return NULL;
+  freeStack(top->next);
+  free(top);
 }

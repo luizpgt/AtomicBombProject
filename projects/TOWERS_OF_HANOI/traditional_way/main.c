@@ -3,17 +3,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define NUM_OF_DISKS 4
+#define NUM_OF_DISKS 3
 #define NUM_OF_RODS 3
 
 // SOLVED: avoid crash when player try to move from an empty rod
-// TODO: clear memory after puzzle solved [not really important here]
+// SOLVED: avoid crash when player try to move to an inexistent rod
+// DONE: clear memory after puzzle solved [not really important here]
 /* TODO: use >< to control which is the sender/receiver rod
         [ 1 < 2 first rod receives the 2nd rod's top ] */
 // TODO: better way to print the stacks
 // DONE: moves counter
 
 #define pos(i) ((i) <= (3) ? (i - 1) : (3))
+#define numof_rods (int)((sizeof(array_of_rods) / sizeof(Stack *)) + 1)
 
 int main() {
   int sender, receiver, i = 0, mov_counter = 0;
@@ -54,12 +56,16 @@ int main() {
   printf("\n");
   */
 
+  printf("num of rods : %d \n", numof_rods);
   printf("how to play:\nmove from 1st rod to 2nd rod: 1 2\n");
   // player wins when move all the plates (in order) to the last rod
   while (!is_solved(array_of_rods[2], NUM_OF_DISKS)) {
     scanf("%d %d", &sender, &receiver);
-    move_disk(&(array_of_rods[sender - 1]), &(array_of_rods[receiver - 1]),
-              &mov_counter);
+    if (sender < numof_rods && receiver < numof_rods)
+      move_disk(&(array_of_rods[sender - 1]), &(array_of_rods[receiver - 1]),
+                &mov_counter);
+    else
+      errorUtils(2);
 
     printf("printing all first stack (rod) ");
     print_stack(array_of_rods[0]);
@@ -81,5 +87,12 @@ int main() {
   else
     printf("you exceeded %.0lf movements above the minimal required.\n",
            mov_counter - (pow(2, NUM_OF_DISKS) - 1));
+  /*
+  free rod 1, 2, 3
+  */
+
+  for (i = 0; i < (numof_rods - 1); i++) {
+    freeStack(array_of_rods[i]);
+  }
   return 0;
 }
