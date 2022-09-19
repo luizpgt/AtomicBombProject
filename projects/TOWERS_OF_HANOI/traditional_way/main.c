@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define NUM_OF_DISKS 3
+#define NUM_OF_DISKS 6
 #define NUM_OF_RODS 3
 
 // SOLVED: avoid crash when player try to move from an empty rod
@@ -15,7 +15,6 @@
 // DONE: moves counter
 
 #define pos(i) ((i) <= (3) ? (i - 1) : (3))
-#define numof_rods (int)((sizeof(array_of_rods) / sizeof(Stack *)) + 1)
 
 int main() {
   int sender, receiver, i = 0, mov_counter = 0;
@@ -56,12 +55,12 @@ int main() {
   printf("\n");
   */
 
-  printf("num of rods : %d \n", numof_rods);
+  printf("num of rods : %d \n", NUM_OF_RODS);
   printf("how to play:\nmove from 1st rod to 2nd rod: 1 2\n");
   // player wins when move all the plates (in order) to the last rod
   while (!is_solved(array_of_rods[2], NUM_OF_DISKS)) {
     scanf("%d %d", &sender, &receiver);
-    if (sender < numof_rods && receiver < numof_rods)
+    if (sender <= NUM_OF_RODS && receiver <= NUM_OF_RODS)
       move_disk(&(array_of_rods[sender - 1]), &(array_of_rods[receiver - 1]),
                 &mov_counter);
     else
@@ -91,7 +90,7 @@ int main() {
   free rod 1, 2, 3
   */
 
-  for (i = 0; i < (numof_rods - 1); i++) {
+  for (i = 0; i < NUM_OF_RODS; i++) {
     freeStack(array_of_rods[i]);
   }
   return 0;

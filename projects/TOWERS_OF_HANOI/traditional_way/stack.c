@@ -88,3 +88,8 @@ Stack *freeStack(Stack *top) {
   freeStack(top->next);
   free(top);
 }
+
+int odd_solver() {
+  int solved;
+  return solved;
+}
