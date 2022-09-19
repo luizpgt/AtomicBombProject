@@ -1,0 +1,4 @@
+invariantes de laço - loop invariants 
+{
+	artifício para provar formalmente a efetividade de um algoritmo que contém loopings
+}
