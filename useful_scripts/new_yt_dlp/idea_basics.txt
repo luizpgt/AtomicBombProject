@@ -1,0 +1,7 @@
+> playlist or single music ?
+
+playlist:
+  - single or multiple playlists? [input number of playlists]
+
+single music:
+  - how many musics? [input number of musics]

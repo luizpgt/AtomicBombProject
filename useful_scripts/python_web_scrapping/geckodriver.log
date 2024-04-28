@@ -1,0 +1,143 @@
+1691616818398	geckodriver	INFO	Listening on 127.0.0.1:47047
+1691616818926	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "43019" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileC5Lv0Y"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691616819288	Marionette	INFO	Marionette enabled
+1691616819354	Marionette	INFO	Listening on port 44103
+WebDriver BiDi listening on ws://127.0.0.1:43019
+Read port: 44103
+1691616819480	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:43019/devtools/browser/5b626cef-0869-4bcf-ab10-2207fffa33b0
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://br.search.yahoo.com."
+1691616823249	Marionette	INFO	Stopped listening on port 44103
+1691616932656	geckodriver	INFO	Listening on 127.0.0.1:44765
+1691616933182	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "44609" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile0PiIcl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691616933534	Marionette	INFO	Marionette enabled
+1691616933577	Marionette	INFO	Listening on port 43655
+Read port: 43655
+WebDriver BiDi listening on ws://127.0.0.1:44609
+1691616933610	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:44609/devtools/browser/8bf9d2ca-a64d-4f93-9d77-ac37c15c5805
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 597))
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1691617054378	Marionette	INFO	Stopped listening on port 43655
+1691617066891	geckodriver	INFO	Listening on 127.0.0.1:48097
+1691617067418	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "51139" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSh1IA6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691617067766	Marionette	INFO	Marionette enabled
+1691617067808	Marionette	INFO	Listening on port 41947
+WebDriver BiDi listening on ws://127.0.0.1:51139
+Read port: 41947
+1691617067898	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:51139/devtools/browser/4ee83a90-7dae-4b92-be65-9d2476135708
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1691617128430	geckodriver	INFO	Listening on 127.0.0.1:49925
+1691617128956	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "42895" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileu8QtZ8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691617129311	Marionette	INFO	Marionette enabled
+1691617129354	Marionette	INFO	Listening on port 41783
+Read port: 41783
+WebDriver BiDi listening on ws://127.0.0.1:42895
+1691617129387	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:42895/devtools/browser/abb87f6b-3011-42d3-a71d-b3a4c49396c4
+1691617134004	Marionette	INFO	Stopped listening on port 41947
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854, line 1: Script terminated by timeout at:
+o@https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854:1:17122
+104/e.onINP/</<@https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854:1:17601
+t@https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854:1:11797
+
+1691617257686	Marionette	INFO	Stopped listening on port 41783
+1691617338497	geckodriver	INFO	Listening on 127.0.0.1:33649
+1691617339023	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "57109" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVsL9A7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691617339378	Marionette	INFO	Marionette enabled
+1691617339420	Marionette	INFO	Listening on port 38553
+Read port: 38553
+WebDriver BiDi listening on ws://127.0.0.1:57109
+1691617339454	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57109/devtools/browser/16c225a1-5980-460c-ba5f-614ac7df74de
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854, line 1: Script terminated by timeout at:
+104/M/</<@https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854:1:14095
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854:1:11926
+t@https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854:1:11797
+
+1691617418740	Marionette	INFO	Stopped listening on port 38553
+1691617525221	geckodriver	INFO	Listening on 127.0.0.1:59233
+1691617525748	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "35547" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6M9caG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691617526097	Marionette	INFO	Marionette enabled
+1691617526139	Marionette	INFO	Listening on port 42757
+WebDriver BiDi listening on ws://127.0.0.1:35547
+Read port: 42757
+1691617526229	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:35547/devtools/browser/d251eb9e-2d56-4069-a7dd-c81307473011
+1691617536254	Marionette	INFO	Stopped listening on port 42757
+1691619057500	geckodriver	INFO	Listening on 127.0.0.1:57343
+1691619058027	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "35919" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3jElmF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691619058375	Marionette	INFO	Marionette enabled
+1691619058418	Marionette	INFO	Listening on port 42475
+WebDriver BiDi listening on ws://127.0.0.1:35919
+Read port: 42475
+1691619058508	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:35919/devtools/browser/68f5b406-da66-4df1-90f5-dcf39d00dbd6
+1691619080248	Marionette	INFO	Stopped listening on port 42475
+1691619125451	geckodriver	INFO	Listening on 127.0.0.1:54903
+1691619125978	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "51995" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGrGItp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691619126329	Marionette	INFO	Marionette enabled
+1691619126371	Marionette	INFO	Listening on port 35587
+WebDriver BiDi listening on ws://127.0.0.1:51995
+Read port: 35587
+1691619126461	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:51995/devtools/browser/6ba2ad17-c0d5-483b-b950-7d4352cc6985
+1691619142610	Marionette	INFO	Stopped listening on port 35587
+1691974695163	geckodriver	INFO	Listening on 127.0.0.1:47299
+1691974695684	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "48391" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilegJL60M"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691974696057	Marionette	INFO	Marionette enabled
+1691974696107	Marionette	INFO	Listening on port 41937
+WebDriver BiDi listening on ws://127.0.0.1:48391
+Read port: 41937
+1691974696258	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:48391/devtools/browser/aac5a61a-2295-4f32-b9f4-a96941310165
+1691974702519	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-H7LMNP6Q9N&l=dataLayer&cx=c, line 421: Script terminated by timeout at:
+aa.qh@https://www.googletagmanager.com/gtag/js?id=G-H7LMNP6Q9N&l=dataLayer&cx=c:421:42
+get@https://www.googletagmanager.com/gtag/js?id=G-H7LMNP6Q9N&l=dataLayer&cx=c:419:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-H7LMNP6Q9N&l=dataLayer&cx=c:419:87
+aa.xk/c/<@https://www.googletagmanager.com/gtag/js?id=G-H7LMNP6Q9N&l=dataLayer&cx=c:419:412
+
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-6S5PBWQ8CG, line 405: Script terminated by timeout at:
+aa.qh@https://www.googletagmanager.com/gtag/js?id=G-6S5PBWQ8CG:405:42
+get@https://www.googletagmanager.com/gtag/js?id=G-6S5PBWQ8CG:403:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-6S5PBWQ8CG:403:87
+aa.xk/c/<@https://www.googletagmanager.com/gtag/js?id=G-6S5PBWQ8CG:403:412
+
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1691974901080	Marionette	INFO	Stopped listening on port 41937
