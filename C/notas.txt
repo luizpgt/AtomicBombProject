@@ -1,0 +1,4 @@
+
+## from (char || string) to integer
+    sscanf(charVariable, "%d", &intVariable);
+    :: more at https://www.geeksforgeeks.org/c-program-for-char-to-int-conversion/

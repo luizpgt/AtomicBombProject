@@ -1,0 +1,9 @@
+chap 4 - GENERAL CONCEPTS
+
+- The namespace std
+- The names and formats of header files
+- The general concept of error and exception handling
+- Callable objects
+- Basic concepts about concurrency and multithreading
+- A brief introduction to allocators
+

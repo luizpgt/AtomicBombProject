@@ -2,3 +2,4 @@
 set -xe
 g++ -Wall -o main.out main.cpp
 ./main.out
+rm main.out

@@ -1,0 +1,93 @@
+#include <bits/stdc++.h>
+
+int main() {
+  char str[100];
+  std::cin >> str;
+
+  int i = 0;
+  while (str[i]) {
+    std::cout << str[i++];
+  }
+
+  /*
+     A = 65
+     Z = 90
+     65 - 65 = 0 = A
+    90 - 65 = 25 = Z
+    0 ... 25 = 26 letters
+  */
+  int alf[26] = {0};
+
+  std::cout << "--------\n\n";
+  std::cout << 'A' - 65;
+  i = 0;
+  int odd = 0;
+  char c;
+  while (str[i]) {
+    c = str[i];
+    if (alf[c - 65] % 2)
+      odd--;
+    else
+      odd++;
+    alf[c - 65] += 1;
+    i++;
+  }
+
+  int slen = i;
+
+  std::cout << "num of charS :: " << i << "\n";
+  if ((i % 2 && odd != 1) || (i % 2 == 0 && odd)) {
+    std::cout << "NO SOLUTION!";
+    return 0;
+  }
+
+  std::cout << "--------\n\n";
+  std::cout << "cheguei aqui\n";
+  i = 0;
+  while (i < 26) {
+    std::cout << alf[i++] << std::endl;
+  }
+  std::cout << "odd nums counter:: " << odd << "\n";
+
+  // print for even string arrays;
+  int opos;
+  i = 0;
+  while (i < 26) {
+    if (alf[i]) {
+      if (!(alf[i] % 2))
+        alf[i] /= 2;
+      else {
+        opos = i++;
+        continue;
+      }
+      for (int k = 1; k <= alf[i]; k++)
+        std::cout << (char)(i + 65) << " ";
+    }
+    i++;
+  }
+
+  /*
+  i = 0;
+  while (i < 26) {
+    std::cout << alf[i++] << std::endl;
+  }
+  */
+
+  // std::cout << "opos :: " << opos << "\n";
+  if (odd) {
+    std::cout << "|" << (char)(opos + 65) << "|";
+    alf[opos] = 0;
+  }
+
+  i = 25;
+  while (i >= 0) {
+    if (alf[i]) {
+      for (int k = 1; k <= alf[i]; k++)
+        std::cout << (char)(i + 65) << " ";
+      alf[i] = 0;
+    }
+    i--;
+  }
+  std::cout << "\n";
+  return 0;
+}

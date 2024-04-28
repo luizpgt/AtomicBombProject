@@ -1,0 +1,28 @@
+#include <bits/stdc++.h>
+
+int main() {
+  char str[100];
+  std::cin >> str;
+
+  int i = 0;
+  while (str[i]) {
+    std::cout << str[i++];
+  }
+
+  std::cout << 'a' + 'a';
+
+  // --------
+  /*
+  struct _el {
+    char let;
+    int app;
+  };
+  int len = 990;
+  struct _el letts[len];
+  while (str[i]) {
+    ()
+  }
+  */
+
+  return 0;
+}

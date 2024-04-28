@@ -1,18 +1,10 @@
 #include <bits/stdc++.h>
 
 int main() {
-  int n;
+  int n, i = 0, k = 0;
   scanf("%d", &n); // mais rapido que cin >> n;
   int ar[n];
   std::iota(ar, ar + n, 1);
-  int i = 0;
-  for (i = 0; i < n; i++)
-    printf("%d ", ar[i]);
-  printf("\n");
-
-  int aux;
-
-  int it = n % 2 ? std::floor(n / 2) : std::floor(n / 2) - 1;
 
   if (n <= 4) {
     if (n == 4)
@@ -23,34 +15,14 @@ int main() {
       printf("NO SOLUTION\n");
     return 0;
   }
-  int res[n];
-  i = 0;
-  int k = 0;
+
   while (k < n) {
     if (i >= n)
       i = 1;
-    res[k++] = ar[i];
+    printf("%d ", ar[i]);
+    k++;
     i += 2;
   }
-
-  /*
-  while (i < it) {
-    aux = ar[k];
-    ar[k] = ar[k + (i + 1)];
-    ar[k + (i + 1)] = aux;
-    k++;
-    i++;
-    if (i == it && n % 2 == 0) {
-      aux = ar[it + 1];
-      ar[it + 1] = ar[n - 1];
-      ar[n - 1] = aux;
-    }
-  }
-  */
-
-  for (i = 0; i < n; i++)
-    printf("%d ", res[i]);
-  printf("\n");
 
   return 0;
 }
