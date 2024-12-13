@@ -1,0 +1,4 @@
+install a package if sync'd: pacman -S alsa-lib alsa-utils
+install a package if not sync'd: pacman -Sy alsa-lib alsa-utils
+
+check if a package is already installed: pacman -Q | grep alsa

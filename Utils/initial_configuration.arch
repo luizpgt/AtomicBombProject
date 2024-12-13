@@ -1,0 +1,13 @@
+para configurar o layout do teclado, usar 00-keyboard.conf
+https://wiki.archlinux.org/title/Xorg/Keyboard_configuration
+
+conectar temporariamente a internet
+$ sudo dhcpcd
+para conectar permanentemente a internet
+$ pacman -S dosfstools //interessante para particoes de disco
+$ pacman -S network-manager-applet networkmanager
+$ systemctl enable NetworkManager
+
+para iniciar o ambiente grafico do i3
+$ startx
+

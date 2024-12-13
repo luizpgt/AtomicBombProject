@@ -1,0 +1,5 @@
+## uma estadia no inferno - arthur rimbaud
+    # sangue mal pag 20 : sangue gaules
+    # delirios 2 | alquimia do verbo | pag 33 : A-preto E-branco I-vermelho O-azul U-verde
+## the c++ standart library
+    # standart template library (STL) - concept

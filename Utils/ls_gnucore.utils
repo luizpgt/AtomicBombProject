@@ -1,0 +1,4 @@
+moreat: https://linoxide.com/how-sort-files-date-using-ls-command-linux/
+
+ls -lt            >> list by last modified
+ls -lt | head -N  >> list the last N elements modified

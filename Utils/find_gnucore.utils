@@ -1,0 +1,3 @@
+cd to a known file 
+
+cd $(find -type d -iname '*namedir*')

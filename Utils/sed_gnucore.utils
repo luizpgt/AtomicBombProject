@@ -1,0 +1,1 @@
+clear && neofetch | sed -e "s/name/anon/"

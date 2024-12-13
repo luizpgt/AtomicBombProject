@@ -1,0 +1,17 @@
+## GENERAL
+P pause/playback
+S take screenshot
+O show progress
+
+## NAVIGATION
+<- -> seek 5 seconds
+[shift] <- -> seek 1 second
+. next frame
+, previous frame
+
+#PLAYBACK
+9 decrease audio volume
+0 increase audio volume
+
+#MORE AT
+https://defkey.com/mpv-media-player-shortcuts

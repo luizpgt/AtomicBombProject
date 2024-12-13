@@ -1,0 +1,3 @@
+* printar array de dentro de uma funcao {
+  print *arName@arSize
+}
