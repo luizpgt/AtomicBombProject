@@ -1,0 +1,13 @@
+
+# para fazer o postgres funcionar pela primeira vez:
+
+	# alterar o usuario linux para o user 'postgres'
+	$ su -i -u postgres
+
+	# usando postgres user
+	$ initdb -D /var/lib/postgres/data
+
+	# iniciar daemon server postgresql.service
+	$ systemctl start postgresql.service
+
+	more at ::: https://wiki.archlinux.org/title/PostgreSQL
